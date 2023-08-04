@@ -1,11 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AdminController;
-use App\Http\Controllers\BlogController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\SertifikatController;
 
 /*
 |==========================================================================
@@ -35,5 +30,7 @@ use App\Http\Controllers\SertifikatController;
 */
 
 // Route Home Page
-Route::get('/', [HomeController::class, 'index'])->name('home-page');
+Route::get('/', function(){
+    return view('homepage');
+});
 
