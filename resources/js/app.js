@@ -1,5 +1,6 @@
 import './bootstrap';
 import "flowbite";
+
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
@@ -55,6 +56,3 @@ if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localS
 } else {
     document.documentElement.classList.remove('dark')
 }
-
-// aos animastion
-AOS.init();

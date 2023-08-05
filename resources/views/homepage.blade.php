@@ -17,17 +17,17 @@
 <body>
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 px-5 mx-auto">
-          <div data-aos="fade-right" class="flex items-center">
+          <div class="flex items-center">
               <img src="{{ asset('logo/logo IM-09.png') }}" class="h-8 sm:h-10 mr-1 sm:mr-3 dark: " alt="Frontam Logo" />
               <span class="self-center text-xl sm:text-2xl font-semibold whitespace-nowrap dark:text-white">Ilham Maulana | Frontam</span>
           </div>
-          <button data-aos="fade-left" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
               <span class="sr-only">Open main menu</span>
               <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
               </svg>
           </button>
-          <div data-aos="fade-left" class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="flex flex-col p-4 mt-4 font-medium border border-gray-400  rounded-lg md:p-0 bg-gray-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <button class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" type="button">
                     <li>
@@ -62,15 +62,15 @@
         <div class="w-full max-w-screen-xl p-4 mx-auto lg:py-6">
             <div class="flex mt-8 mb-8 ml-8 sm:ml-14 sm:justify-between">
                 <div class="mt-16 sm:mt-28 md:mt-32">
-                    <h1 data-aos="fade-right" class="mb-5 text-xl font-extrabold leading-none tracking-tight text-gray-900 sm:mb-9 sm:text-3xl md:text-4xl lg:text-6xl dark:text-white">Hallo,<span class="text-blue-600 dark:text-blue-500"><br>i'm Ilham Maulana </span></h1>
-                    <a data-aos="fade-right" href="#about" id="card-hover" class="inline-flex items-center px-3 py-1 text-sm font-medium text-center text-white bg-blue-700 rounded-lg shadow-lg  sm:px-5 sm:py-3 sm:text-base justify-left bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80">
+                    <h1 class="mb-5 text-xl font-extrabold leading-none tracking-tight text-gray-900 sm:mb-9 sm:text-3xl md:text-4xl lg:text-6xl dark:text-white">Hallo,<span class="text-blue-600 dark:text-blue-500"><br>i'm Ilham Maulana </span></h1>
+                    <a href="#about" id="card-hover" class="inline-flex items-center px-3 py-1 text-sm font-medium text-center text-white bg-blue-700 rounded-lg shadow-lg  sm:px-5 sm:py-3 sm:text-base justify-left bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80">
                         tentang saya
                         <svg class=" w-3 h-3 sm:w-3.5 sm:h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                     </svg>
                     </a>
                 </div>
-                <div data-aos="fade-left" class="sm:-mr-12 md:-mr-10 -mr-28">
+                <div class="sm:-mr-12 md:-mr-10 -mr-28">
                     <img class="mx-w-c max-w-c sm:max-w-sm sm:max-h-sm md:max-w-xl md:max-h-xl" src="{{ asset('img/Profile (1).png') }}" alt="">
                 </div>
             </div>
@@ -80,21 +80,21 @@
             <div id="about" class="mt-0 sm:mt-20">
                 {{-- tentang saya --}}
                 <div class="w-full text-center">
-                    <h1 data-aos="zoom-in-up" class="text-2xl font-bold text-gray-900 sm:text-3xl text- dark:text-white">Deskripsi Diri</h1>
+                    <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl text- dark:text-white">Deskripsi Diri</h1>
                     <hr class="border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3" />
-                    <p data-aos="flip-up" class="mx-2 my-10 text-sm font-thin text-center text-gray-700 sm:font-normal sm:mx-16 dark:text-white sm:text-xl">Seorang pengembang frontend pemula yang bersemangat dari Cirebon, Indonesia. Saya memiliki minat untuk mengembangkan situs web sebagai full-stack Web developer. Saya memiliki keterampilan dalam html, dan css, tetapi bersedia untuk mempelajari apa pun yang diperlukan untuk menyelesaikan masalah secara efisien. Saya juga suka melakukan evaluasi pada diri saya sendiri untuk meningkatkan keterampilan dan pengetahuan. Fokus utama saya adalah membangun keterampilan, koneksi yang baik, dan pengetahuan. Saya akan melakukan yang terbaik dalam mengerjakan tugas yang diberikan dan menghargai kesempatan untuk belajar lebih banyak tentang pengembangan web.</p>
+                    <p class="mx-2 my-10 text-sm font-thin text-center text-gray-700 sm:font-normal sm:mx-16 dark:text-white sm:text-xl">Seorang pengembang frontend pemula yang bersemangat dari Cirebon, Indonesia. Saya memiliki minat untuk mengembangkan situs web sebagai full-stack Web developer. Saya memiliki keterampilan dalam html, dan css, tetapi bersedia untuk mempelajari apa pun yang diperlukan untuk menyelesaikan masalah secara efisien. Saya juga suka melakukan evaluasi pada diri saya sendiri untuk meningkatkan keterampilan dan pengetahuan. Fokus utama saya adalah membangun keterampilan, koneksi yang baik, dan pengetahuan. Saya akan melakukan yang terbaik dalam mengerjakan tugas yang diberikan dan menghargai kesempatan untuk belajar lebih banyak tentang pengembangan web.</p>
                 </div>
 
 
                 {{-- pengalaman organisasi --}}
                 <div class="w-full text-center">
-                    <h1 data-aos="zoom-in-up" class="text-2xl font-bold text-gray-900 sm:text-3xl dark:text-white">Pengalaman Organisasi</h1>
+                    <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl dark:text-white">Pengalaman Organisasi</h1>
                     <hr class="border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3" />
 
                     <div class="my-10">
                         <div class="flex justify-center">
                             <div class="grid grid-cols-1">
-                                <div data-aos="fade-up-right" class="max-w-xl p-5 mb-10 bg-white border border-gray-900 rounded-lg shadow-lg sm:max-w-3xl shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-white">
+                                <div class="max-w-xl p-5 mb-10 bg-white border border-gray-900 rounded-lg shadow-lg sm:max-w-3xl shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-white">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
                                             <img src="{{ asset('logo/secret.png') }}" class="w-12 h-12" alt="I-secret Logo"/>
@@ -122,7 +122,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div data-aos="fade-up-left" class="max-w-xl p-5 bg-white border border-gray-900 rounded-lg shadow-lg sm:max-w-3xl shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-white">
+                                <div class="max-w-xl p-5 bg-white border border-gray-900 rounded-lg shadow-lg sm:max-w-3xl shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-white">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
                                             <img src="{{ asset('logo/ss.png') }}" class="w-12 h-12" alt="ss Logo"/>
@@ -164,12 +164,12 @@
                 {{-- riwayat akademi --}}
                 <div class="mt-10">
                     <div class="items-center w-full text-center">
-                        <h1 data-aos="zoom-in-up" class="text-3xl font-bold text-gray-900 dark:text-white">Riwayat Pendidikan</h1>
+                        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Riwayat Pendidikan</h1>
                         <hr class="border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3" />
                     </div>
                     <div class="md:flex md:justify-around ">
                         <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2">
-                            <div data-aos="zoom-in-right" class="flex justify-center m-10">
+                            <div class="flex justify-center m-10">
                                 <div id="card-hover" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-gray-700">
                                     <img class="w-full h-56 rounded-t-lg" src="{{ asset('img/unnes.jpg') }}" alt="" />
                                     <div class="p-5">
@@ -185,7 +185,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div data-aos="zoom-in-left" class="flex justify-center m-10">
+                            <div class="flex justify-center m-10">
                                 <div id="card-hover" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-gray-700">
                                     <img class="w-full h-56 rounded-t-lg" src="{{ asset('img/sma.png') }}" alt="" />
                                     <div class="p-5">
@@ -214,16 +214,16 @@
                 {{-- portofolio --}}
                 <div class="w-full text-center mt-14" id="portofolio">
                     <div>
-                        <h1 data-aos="zoom-in-up" class="text-3xl font-bold text-gray-900 dark:text-white">Portofolio</h1>
+                        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Portofolio</h1>
                         <hr class="border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3" />
                     </div>
                     <div  id="animation-carousel" class="relative w-full" data-carousel="static">
                         <!-- Carousel wrapper -->
-                        <div data-aos="zoom-in" class="relative overflow-hidden rounded-lg h-80 sm:h-p-md md:h-p-sm h-p">
+                        <div class="relative overflow-hidden rounded-lg h-80 sm:h-p-md md:h-p-sm h-p">
                             <!-- Item 1 -->
                             <div class="hidden ease-linear delay-200" data-carousel-item>
-                                <div data-aos="zoom-in-right" class="grid grid-cols-2 gap-5 m-12 md:grid-cols-3 sm:gird-cols-2 md:gap-10 sm:justify-around sm:grid md:flex">
-                                    <div data-aos="zoom-in-right" class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow-lg sm:max-w-xss md:max-w-xs shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-gray-700">
+                                <div class="grid grid-cols-2 gap-5 m-12 md:grid-cols-3 sm:gird-cols-2 md:gap-10 sm:justify-around sm:grid md:flex">
+                                    <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-gray-700">
                                         <img class="w-full rounded-t-lg" src="{{ asset('img/portofolio (1).png') }}" alt="Portofolio image" />
                                         <div class="px-5 pb-5">
                                             <h5 class="mt-4 text-xl font-semibold tracking-tight text-gray-900  dark:text-white">Judul Portofolio</h5>
@@ -325,7 +325,6 @@
                         <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
                             <button type="button" class="w-3 h-3 rounded-full shadow-lg shadow-black dark:shadow-yellow-100" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                             <button type="button" class="w-3 h-3 rounded-full shadow-lg shadow-black dark:shadow-yellow-100" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full shadow-lg shadow-black dark:shadow-yellow-100" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
                         </div>
                         <!-- Slider controls -->
                         <button id="card-hover" type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-0 cursor-pointer sm:px-1 md:px-4 group focus:outline-none" data-carousel-prev>
@@ -354,7 +353,7 @@
                 {{-- skill --}}
                 <div class="w-full text-center mt-14">
                     <div>
-                        <h1 data-aos="zoom-in-up" class="text-3xl font-bold text-gray-900 dark:text-white">Skill</h1>
+                        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">Skill</h1>
                         <hr class="border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3" />
                     </div>
 
@@ -363,14 +362,14 @@
                         <div class="flex justify-center">
                             <div class="grid grid-cols-1">
                                 <div class="max-w-xl p-5 mb-10 bg-white border border-gray-200 rounded-lg shadow-lg sm:max-w-full shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-gray-700">
-                                    <div data-aos="fade-up-right" data-aos-duration="500" class="flex">
+                                    <div class="flex">
                                         <h5 class="mt-2 text-lg font-semibold text-left text-gray-900 sm:text-2xl dark:text-white">Hard Skill</h5>
                                     </div>
                                     <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
                                     <div class="grid justify-around grid-cols-2 gap-5 mt-5 sm:grid-cols-3 md:grid-cols-5">
 
                                         {{-- section html --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="w-32 h-32 p-5 mx-c" viewBox="-52.5 0 361 361" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><path d="M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z" fill="#E44D26"/><path d="M128 337.95l84.417-23.403 19.86-222.49H128V337.95z" fill="#F16529"/><path d="M82.82 155.932H128v-31.937H47.917l.764 8.568 7.85 88.01H128v-31.937H85.739l-2.919-32.704zM90.018 236.542h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58l-.14.037-35.568-9.604-2.274-25.471z" fill="#EBEBEB"/><path d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0zM92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103h-.001zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88V0zM193.21 0h16.235v32.508h22.824v16.05h-39.06V0z"/><path d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z" fill="#FFF"/></svg>
                                                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Intermediate</h5>
@@ -429,7 +428,7 @@
                                         </div>
 
                                         {{-- section css --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="w-32 h-32 p-5 mx-c" viewBox="-52.5 0 361 361" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M127.844 360.088L23.662 331.166.445 70.766h255.11l-23.241 260.36-104.47 28.962z" fill="#264DE4"/><path d="M212.417 314.547l19.86-222.49H128V337.95l84.417-23.403z" fill="#2965F1"/><path d="M53.669 188.636l2.862 31.937H128v-31.937H53.669zM47.917 123.995l2.903 31.937H128v-31.937H47.917zM128 271.58l-.14.037-35.568-9.604-2.274-25.471h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58z" fill="#EBEBEB"/><path d="M60.484 0h38.68v16.176H76.66v16.176h22.506v16.175H60.484V0zM106.901 0h38.681v14.066h-22.505v2.813h22.505v32.352h-38.68V34.46h22.505v-2.813H106.9V0zM153.319 0H192v14.066h-22.505v2.813H192v32.352h-38.681V34.46h22.505v-2.813H153.32V0z"/><path d="M202.127 188.636l5.765-64.641H127.89v31.937h45.002l-2.906 32.704H127.89v31.937h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576z" fill="#FFF"/></svg>
                                                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Intermediate</h5>
@@ -518,7 +517,7 @@
                                         </div>
 
                                         {{-- section figma --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="w-32 h-32 p-5 mx-c" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                     <g fill="none" fill-rule="evenodd" transform="translate(4)">
@@ -617,7 +616,7 @@
                                         </div>
 
                                         {{-- section tailwind --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="w-32 h-32 p-5 mx-c" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 54 33"><g clip-path="url(#prefix__clip0)"><path fill="#38bdf8" fill-rule="evenodd" d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z" clip-rule="evenodd"/></g><defs><clipPath id="prefix__clip0"><path fill="#fff" d="M0 0h54v32.4H0z"/></clipPath></defs></svg>
                                                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beginner</h5>
@@ -682,7 +681,7 @@
                                         </div>
 
                                         {{-- section laravel --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="w-32 h-32 p-5 mx-c" viewBox="0 0 50 52" xmlns="http://www.w3.org/2000/svg"><title>Logomark</title><path d="M49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1-.402.694l-9.209 5.302V39.25c0 .286-.152.55-.4.694L20.42 51.01c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1-.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054L.402 39.944A.801.801 0 0 1 0 39.25V6.334c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216l17.62-10.144zM1.602 7.719v31.068L19.22 48.93v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-.002-21.481L4.965 9.654 1.602 7.72zm8.81-5.994L2.405 6.334l8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764l4.645-2.674V7.719l-3.363 1.936-4.646 2.675v20.096l3.364-1.937zM39.243 7.164l-8.006 4.609 8.006 4.609 8.005-4.61-8.005-4.608zm-.801 10.605l-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937v-9.124zM20.02 38.33l11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833 7.993 4.524z" fill="#FF2D20" fill-rule="evenodd"/></svg>
                                                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beginner</h5>
@@ -717,10 +716,10 @@
                                         </div>
 
                                         {{-- section git --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="p-5 w-36 h-36 mx-c" xmlns="http://www.w3.org/2000/svg" width="292" height="92pt" viewBox="0 0 219 92"><defs><clipPath id="a"><path d="M159 .79h25V69h-25Zm0 0"/></clipPath><clipPath id="b"><path d="M183 9h35.371v60H183Zm0 0"/></clipPath><clipPath id="c"><path d="M0 .79h92V92H0Zm0 0"/></clipPath></defs><path style="stroke:none;fill-rule:nonzero;fill:#f03c2e;fill-opacity:1" d="M130.871 31.836c-4.785 0-8.351 2.352-8.351 8.008 0 4.261 2.347 7.222 8.093 7.222 4.871 0 8.18-2.867 8.18-7.398 0-5.133-2.961-7.832-7.922-7.832Zm-9.57 39.95c-1.133 1.39-2.262 2.87-2.262 4.612 0 3.48 4.434 4.524 10.527 4.524 5.051 0 11.926-.352 11.926-5.043 0-2.793-3.308-2.965-7.488-3.227Zm25.761-39.688c1.563 2.004 3.22 4.789 3.22 8.793 0 9.656-7.571 15.316-18.536 15.316-2.789 0-5.312-.348-6.879-.785l-2.87 4.613 8.526.52c15.059.96 23.934 1.398 23.934 12.968 0 10.008-8.789 15.665-23.934 15.665-15.75 0-21.757-4.004-21.757-10.88 0-3.917 1.742-6 4.789-8.878-2.875-1.211-3.828-3.387-3.828-5.739 0-1.914.953-3.656 2.523-5.312 1.566-1.652 3.305-3.305 5.395-5.219-4.262-2.09-7.485-6.617-7.485-13.058 0-10.008 6.613-16.88 19.93-16.88 3.742 0 6.004.344 8.008.872h16.972v7.394l-8.007.61"/><g clip-path="url(#a)"><path style="stroke:none;fill-rule:nonzero;fill:#f03c2e;fill-opacity:1" d="M170.379 16.281c-4.961 0-7.832-2.87-7.832-7.836 0-4.957 2.871-7.656 7.832-7.656 5.05 0 7.922 2.7 7.922 7.656 0 4.965-2.871 7.836-7.922 7.836Zm-11.227 52.305V61.71l4.438-.606c1.219-.175 1.394-.437 1.394-1.746V33.773c0-.953-.261-1.566-1.132-1.824l-4.7-1.656.957-7.047h18.016V59.36c0 1.399.086 1.57 1.395 1.746l4.437.606v6.875h-24.805"/></g><g clip-path="url(#b)"><path style="stroke:none;fill-rule:nonzero;fill:#f03c2e;fill-opacity:1" d="M218.371 65.21c-3.742 1.825-9.223 3.481-14.187 3.481-10.356 0-14.27-4.175-14.27-14.015V31.879c0-.524 0-.871-.7-.871h-6.093v-7.746c7.664-.871 10.707-4.703 11.664-14.188h8.27v12.36c0 .609 0 .87.695.87h12.27v8.704h-12.965v20.797c0 5.136 1.218 7.136 5.918 7.136 2.437 0 4.96-.609 7.047-1.39l2.351 7.66"/></g><g clip-path="url(#c)"><path style="stroke:none;fill-rule:nonzero;fill:#f03c2e;fill-opacity:1" d="M89.422 42.371 49.629 2.582a5.868 5.868 0 0 0-8.3 0l-8.263 8.262 10.48 10.484a6.965 6.965 0 0 1 7.173 1.668 6.98 6.98 0 0 1 1.656 7.215l10.102 10.105a6.963 6.963 0 0 1 7.214 1.657 6.976 6.976 0 0 1 0 9.875 6.98 6.98 0 0 1-9.879 0 6.987 6.987 0 0 1-1.519-7.594l-9.422-9.422v24.793a6.979 6.979 0 0 1 1.848 1.32 6.988 6.988 0 0 1 0 9.88c-2.73 2.726-7.153 2.726-9.875 0a6.98 6.98 0 0 1 0-9.88 6.893 6.893 0 0 1 2.285-1.523V34.398a6.893 6.893 0 0 1-2.285-1.523 6.988 6.988 0 0 1-1.508-7.637L29.004 14.902 1.719 42.187a5.868 5.868 0 0 0 0 8.301l39.793 39.793a5.868 5.868 0 0 0 8.3 0l39.61-39.605a5.873 5.873 0 0 0 0-8.305"/></g></svg>
-                                                <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Intermediate</h5>
+                                                <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Beginner</h5>
                                                 <ul class="max-w-md mt-3 ml-3 text-sm text-left text-gray-500 list-disc list-inside dark:text-gray-400">
                                                     <h5 class="mb-2 -ml-5 font-bold">Memahami:</h5>
                                                     <div class="flex mb-0.5">
@@ -808,7 +807,7 @@
                                         </div>
 
                                         {{-- section canva --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="p-5 w-36 h-36 mx-c" viewBox="0 0 508 508" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><g transform="matrix(.26718 0 0 .26718 0 0)"><circle cx="950" cy="950" r="950" fill="#7d2ae7"/><circle cx="950" cy="950" r="950" fill="url(#prefix___Radial1)"/><circle cx="950" cy="950" r="950" fill="url(#prefix___Radial2)"/><circle cx="950" cy="950" r="950" fill="url(#prefix___Radial3)"/><circle cx="950" cy="950" r="950" fill="url(#prefix___Radial4)"/></g><path d="M446.744 276.845c-.665 0-1.271.43-1.584 1.33-4.011 11.446-9.43 18.254-13.891 18.254-2.563 0-3.6-2.856-3.6-7.336 0-11.21 6.71-34.982 10.095-45.82.392-1.312.646-2.485.646-3.483 0-3.15-1.722-4.696-5.987-4.696-4.598 0-9.547 1.8-14.36 10.233-1.663-7.435-6.691-10.683-13.715-10.683-8.12 0-15.965 5.224-22.421 13.696-6.456 8.471-14.048 11.25-19.76 9.88 4.108-10.057 5.634-17.57 5.634-23.145 0-8.746-4.324-14.028-11.308-14.028-10.624 0-16.747 10.134-16.747 20.797 0 8.237 3.736 16.708 11.954 20.817-6.887 15.573-16.943 29.66-20.758 29.66-4.93 0-6.379-24.123-6.105-41.38.176-9.9.998-10.408.998-13.401 0-1.722-1.115-2.896-5.595-2.896-10.448 0-13.676 8.844-14.165 18.998a50.052 50.052 0 01-1.8 11.406c-4.363 15.573-13.363 27.39-19.232 27.39-2.72 0-3.463-2.72-3.463-6.28 0-11.21 6.28-25.219 6.28-37.173 0-8.784-3.854-14.34-11.112-14.34-8.55 0-19.858 10.173-30.56 29.229 3.521-14.595 4.97-28.721-5.459-28.721a14.115 14.115 0 00-6.476 1.683 3.689 3.689 0 00-2.113 3.56c.998 15.535-12.521 55.329-25.336 55.329-2.328 0-3.463-2.524-3.463-6.593 0-11.23 6.691-34.943 10.056-45.801.43-1.409.666-2.622.666-3.678 0-2.974-1.84-4.5-6.007-4.5-4.578 0-9.547 1.741-14.34 10.174-1.683-7.435-6.711-10.683-13.735-10.683-11.523 0-24.397 12.19-30.051 28.076-7.572 21.208-22.832 41.692-43.375 41.692-18.645 0-28.486-15.515-28.486-40.03 0-35.392 25.982-64.308 45.253-64.308 9.215 0 13.617 5.869 13.617 14.869 0 10.897-6.085 15.964-6.085 20.112 0 1.272 1.057 2.524 3.15 2.524 8.374 0 18.234-9.841 18.234-23.262 0-13.422-10.897-23.243-30.168-23.243-31.851 0-63.898 32.047-63.898 73.113 0 32.673 16.121 52.374 44 52.374 19.017 0 35.628-14.79 44.588-32.047 1.018 14.302 7.513 21.776 17.413 21.776 8.804 0 15.925-5.243 21.364-14.458 2.094 9.645 7.65 14.36 14.87 14.36 8.275 0 15.201-5.243 21.794-14.986-.097 7.65 1.644 14.85 8.276 14.85 3.13 0 6.867-.725 7.533-3.464 6.984-28.877 24.24-52.453 29.523-52.453 1.565 0 1.995 1.507 1.995 3.287 0 7.846-5.537 23.928-5.537 34.2 0 11.092 4.716 18.43 14.459 18.43 10.8 0 21.775-13.227 29.092-32.556 2.29 18.058 7.24 32.633 14.987 32.633 9.508 0 26.392-20.014 36.625-41.203 4.01.509 10.036.372 15.827-3.717-2.465 6.241-3.912 13.07-3.912 19.897 0 19.663 9.39 25.18 17.47 25.18 8.785 0 15.907-5.243 21.365-14.458 1.8 8.315 6.398 14.34 14.85 14.34 13.225 0 24.71-13.519 24.71-24.612 0-2.934-1.252-4.715-2.72-4.715zm-274.51 18.547c-5.342 0-7.435-5.38-7.435-13.401 0-13.93 9.528-37.193 19.604-37.193 4.402 0 6.065 5.185 6.065 11.524 0 14.145-9.059 39.07-18.235 39.07zm182.948-41.574c-3.189-3.796-4.343-8.961-4.343-13.559 0-5.673 2.074-10.467 4.558-10.467 2.485 0 3.248 2.446 3.248 5.85 0 5.693-2.035 14.008-3.463 18.176zm41.418 41.574c-5.34 0-7.434-6.182-7.434-13.401 0-13.441 9.528-37.193 19.682-37.193 4.402 0 5.967 5.146 5.967 11.524 0 14.145-8.902 39.07-18.215 39.07z" fill="#fff" fill-rule="nonzero"/><defs><radialGradient id="prefix___Radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="scale(1469.491) rotate(-49.416 1.37 .302)"><stop offset="0" stop-color="#6420ff"/><stop offset="1" stop-color="#6420ff" stop-opacity="0"/></radialGradient><radialGradient id="prefix___Radial2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(54.703 42.717 594.194) scale(1657.122)"><stop offset="0" stop-color="#00c4cc"/><stop offset="1" stop-color="#00c4cc" stop-opacity="0"/></radialGradient><radialGradient id="prefix___Radial3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1023 -1030 473.711 470.491 367 1684)"><stop offset="0" stop-color="#6420ff"/><stop offset="1" stop-color="#6420ff" stop-opacity="0"/></radialGradient><radialGradient id="prefix___Radial4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(595.999 1372 -2298.41 998.431 777 256)"><stop offset="0" stop-color="#00c4cc" stop-opacity=".73"/><stop offset="0" stop-color="#00c4cc"/><stop offset="1" stop-color="#00c4cc" stop-opacity="0"/></radialGradient></defs></svg>
                                                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Intermediate</h5>
@@ -881,7 +880,7 @@
 
 
                                         {{-- section adobe ilustrator --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-w dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <svg class="p-5 w-36 h-36 mx-c" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 240 234">
                                                     <path fill="#300" d="M42.5 0h155C221 0 240 19 240 42.5v149c0 23.5-19 42.5-42.5 42.5h-155C19 234 0 215 0 191.5v-149C0 19 19 0 42.5 0z"/>
@@ -952,14 +951,14 @@
 
                                 {{-- Soft Skill --}}
                                 <div class="max-w-xl p-5 mb-10 bg-white border border-gray-200 rounded-lg shadow-lg sm:max-w-full shadow-gray-900 dark:shadow-yellow-100 dark:bg-gray-900 dark:border-gray-700">
-                                    <div data-aos="fade-up-right" data-aos-duration="500" class="flex">
+                                    <div class="flex">
                                         <h5 class="mt-2 text-lg font-semibold text-left text-gray-900 sm:text-2xl dark:text-white">Soft Skill</h5>
                                     </div>
                                     <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
                                     <div class="grid grid-cols-2 mt-5 text-lg text-left text-gray-500 list-disc list-inside border-gray-500 sm:grid-cols-3 gap-x-5 sm:gap-x-7 md:gap-x-10 gap-y-5 dark:text-gray-400">
 
                                         {{-- Kepemimpinan --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div  class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Kepemimpinan</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1018,7 +1017,7 @@
                                         </div>
 
                                         {{-- Komunikasi --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Komunikasi</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1065,7 +1064,7 @@
                                         </div>
 
                                         {{-- Adaptasi --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Adaptasi</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1118,7 +1117,7 @@
                                         </div>
 
                                         {{-- Kerja Tim --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Kerja Tim</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1183,7 +1182,7 @@
                                         </div>
 
                                         {{-- Etos Kerja --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Etos Kerja</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1230,7 +1229,7 @@
                                         </div>
 
                                         {{-- Berfikir Kritis --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Berfikir Kritis</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1289,7 +1288,7 @@
                                         </div>
 
                                         {{-- Sikap Positif --}}
-                                        <div data-aos="fade-up" data-aos-duration="3000" class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
+                                        <div class="bg-white border border-gray-200 rounded-lg shadow mx-w-xl dark:bg-gray-800 dark:border-gray-700">
                                             <div class="p-3">
                                                 <h1 class="mt-1 mb-1 ml-3 text-xl font-semibold text-gray-900 dark:text-white">Sikap Positif</h1>
                                                 <hr class="mt-2 border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3">
@@ -1364,12 +1363,12 @@
                 {{-- blog --}}
                 <div class="w-full text-center mt-14" id="blog">
                     <div>
-                        <h1 data-aos="zoom-in-up" class="text-3xl font-bold text-gray-900 dark:text-white">My Blog</h1>
+                        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">My Blog</h1>
                         <hr class="border-gray-300 sm:mx-auto dark:border-gray-700 lg:my-3" />
                     </div>
                     <div id="animation-carousel" class="relative w-full" data-carousel="static">
                         <!-- Carousel wrapper -->
-                        <div data-aos="zoom-in" class="relative overflow-hidden rounded-lg h-80 sm:h-p-md md:h-p-sm h-b">
+                        <div class="relative overflow-hidden rounded-lg h-80 sm:h-p-md md:h-p-sm h-b">
                             <!-- Item 1 -->
                             <div class="hidden ease-linear delay-200" data-carousel-item>
                                 <div class="grid grid-cols-2 gap-5 m-12 md:grid-cols-3 sm:gird-cols-2 md:gap-10 sm:justify-around sm:grid md:flex">
@@ -1475,7 +1474,6 @@
                         <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
                             <button type="button" class="w-3 h-3 rounded-full shadow-lg shadow-black dark:shadow-yellow-100" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                             <button type="button" class="w-3 h-3 rounded-full shadow-lg shadow-black dark:shadow-yellow-100" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                            <button type="button" class="w-3 h-3 rounded-full shadow-lg shadow-black dark:shadow-yellow-100" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
                         </div>
                         <!-- Slider controls -->
                         <button id="card-hover" type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-0 cursor-pointer sm:px-1 md:px-4 group focus:outline-none" data-carousel-prev>
@@ -1503,7 +1501,7 @@
 
     {{-- FOOTER MAIN --}}
 
-    <footer data-aos="zoom-out-up" id="footer" class="bg-white dark:bg-gray-900 px-5">
+    <footer id="footer" class="bg-white dark:bg-gray-900 px-5">
         <hr class="border-gray-300 sm:mx-auto dark:border-gray-900" />
         <div class="w-full max-w-screen-xl p-4 mx-auto lg:py-8">
             <div class="mr-10 md:flex md:justify-between">
@@ -1611,6 +1609,5 @@
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
