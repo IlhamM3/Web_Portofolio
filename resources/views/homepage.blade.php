@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Poppins:,wght@1,300&display=swap" rel="stylesheet">
-    {{-- css style --}}
+    {{-- css style and js--}}
+
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="icon" href="{{ asset("logo/logo IM-09.png") }}">
     <title>Web | Profile</title>
