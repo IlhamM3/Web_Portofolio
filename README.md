@@ -35,7 +35,7 @@ cp .env.example .env
 
 ```sh
 php artisan key:generate
-php artisan migrate
+php artisan migrate --seed fresh
 php artisan serve
 ```
 -   And go to http://localhost:8000/
